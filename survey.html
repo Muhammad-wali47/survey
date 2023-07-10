@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body background="surveyphoto.jpg">
+    <h1 id="title">SURVEY FORM</h1>
+    <p id="description">
+      <strong><em>This is the survey form for this website's login</em></strong>
+    </p>
+    <div class="form">
+      <form id="survey-form">
+        <label for="name" id="name-label"
+          >Enter your name:<input id="name" type="text" placeholder="your name here" required
+        /></label>
+        <label for="password" id="password-label"
+          >Enter your password: <input id="password" type="password" placeholder="your password here" required
+        /></label>
+        <label for="email" id="email-label"
+          >Enter your email:<input id="email" type="email" placeholder="your email here" required
+        /></label>
+        <label for="number" id="number-label"
+          >Enter your age:<input type="number" id="number" min="13" max="80" placeholder="your age here" required
+        /></label>
+        <label
+          >Choose your gender:<select id="dropdown">
+            <option>male</option>
+            <option>female</option>
+          </select>
+        </label>
+        <hr />
+        <label for="personal-account"
+          ><input type="radio" id="personal-account" value="Personal" name="account-type" class="inline" />Personal
+          Account</label
+        >
+        <label for="business-account"
+          ><input type="radio" id="business-account" value="Business" name="account-type" class="inline" />Business
+          Account</label
+        >
+        <label for="terms-and-conditions"
+          ><input
+            value="tos"
+            type="checkbox"
+            id="terms-and-conditions"
+            name="terms-and-conditions"
+            class="inline"
+            required
+          />I accept the <a href="link">terms and conditions</a></label
+        >
+        <hr />
+        <p>What would you like to learn from our website?</p>
+        <label for="html"><input value="html" id="html" name="html" type="checkbox" />html</label>
+        <label for="css"><input value="css" id="css" name="css" type="checkbox" />css</label>
+        <label for="javascript"
+          ><input value="javascript" id="javascript" name="javascript" type="checkbox" />javascript</label
+        >
+        <label for="python"><input value="python" id="python" name="python" type="checkbox" />python</label>
+        <label for="react-native"
+          ><input value="react-native" id="react-native" name="react-native" type="checkbox" />react-native</label
+        >
+        <label for="c++"><input value="c++" id="c++" name="c++" type="checkbox" />c++</label>
+        <hr />
+        <label for="profile-picture"
+          >Upload a profile picture: <input id="profile-picture" type="file" name="file"
+        /></label>
+        <label for="referrer"
+          >How did you hear about us?
+          <select name="referrer" id="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Youtube</option>
+            <option value="2">Facebook</option>
+            <option value="3">Twitter</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio"
+          >Provide a bio:
+          <textarea name="bio" id="bio" cols="30" rows="10" placeholder="I like coding on laptop..."></textarea>
+        </label>
+        <input type="submit" value="submit" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>

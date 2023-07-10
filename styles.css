@@ -1,0 +1,46 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,
+p {
+  text-align: center;
+  color: rgb(27, 20, 20);
+}
+p {
+  font-size: 25px;
+}
+h1 {
+  font-size: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, sans-serif;
+  margin: 1px;
+}
+label {
+  display: block;
+  padding: 10px;
+  margin: 0.5rem 0;
+}
+hr {
+  width: 400px;
+  border: 1px solid black;
+}
+.form {
+  background-color: rgba(32, 132, 247, 0.4);
+  width: 500px;
+  margin: auto;
+  padding: 40px;
+  border: 2px solid rgb(16, 68, 128);
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: left;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+}
+input {
+  border: 1px solid black;
+}
